@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MASAUSTU-HERSEY\\Masaüstü\\derslervs\\aspnetcore-dersleri\\ProductsAPI\\ProductsAPI.csproj": {}
+    "C:\\Users\\deniz\\OneDrive\\Masaüstü\\ProductsAPI\\ProductsAPI.csproj": {}
   },
   "projects": {
-    "D:\\MASAUSTU-HERSEY\\Masaüstü\\derslervs\\aspnetcore-dersleri\\ProductsAPI\\ProductsAPI.csproj": {
+    "C:\\Users\\deniz\\OneDrive\\Masaüstü\\ProductsAPI\\ProductsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MASAUSTU-HERSEY\\Masaüstü\\derslervs\\aspnetcore-dersleri\\ProductsAPI\\ProductsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\deniz\\OneDrive\\Masaüstü\\ProductsAPI\\ProductsAPI.csproj",
         "projectName": "ProductsAPI",
-        "projectPath": "D:\\MASAUSTU-HERSEY\\Masaüstü\\derslervs\\aspnetcore-dersleri\\ProductsAPI\\ProductsAPI.csproj",
-        "packagesPath": "C:\\Users\\denzk\\.nuget\\packages\\",
-        "outputPath": "D:\\MASAUSTU-HERSEY\\Masaüstü\\derslervs\\aspnetcore-dersleri\\ProductsAPI\\obj\\",
+        "projectPath": "C:\\Users\\deniz\\OneDrive\\Masaüstü\\ProductsAPI\\ProductsAPI.csproj",
+        "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deniz\\OneDrive\\Masaüstü\\ProductsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\denzk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -62,6 +63,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [
@@ -83,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }
